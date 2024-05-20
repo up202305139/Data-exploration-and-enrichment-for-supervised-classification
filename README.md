@@ -49,7 +49,7 @@ Em termos de precisão, recall, exatidão e F1-score, os algoritmos KNN e Random
 
 ------
 
-**Instruções:**
+**INSTRUÇÕES:**
 
 **01** Usar Python 3.12.3
 
