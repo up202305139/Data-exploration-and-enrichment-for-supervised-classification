@@ -39,6 +39,20 @@ Usamos como métodos de pesquisa supervisionada o k-nearest neighbors algorithm,
 
 
 **DATA EVALUATION:**
-Comparamos os métodos de pesquisa através 
+Comparamos os métodos de pesquisa através de gráficos com a performance de cada um durante a aprendizagem, matrizes de confusão, curvas ROC/AUC, precisão, recall, exatidão e f1-score.
 
-    
+
+**DATA INTERPRETATION:**
+Em termos de precisão, recall, exatidão e F1-score, os algoritmos KNN e Random Forest superam a Decision Tree. No entanto, o Random Forest tem maior pontuação AUC, pelo que parece ser o algoritmo mais eficaz para o nosso conjunto de dados.
+
+
+------
+
+**Instruções:**
+
+**01** Usar Python 3.12.3
+
+**02** Ter o ficheiro 'hcc_dataset.csv'
+
+**03** Ter os imports todos necessários 
+
