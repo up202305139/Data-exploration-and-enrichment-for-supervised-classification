@@ -33,7 +33,7 @@ Identificação de colunas com mais valores em falta ('Nan') e mais baixa variâ
 
 Colunas removidas: Grams_day, Spleno, PHT, Dir_Bil, AST, Sat, Ferritin, Iron, Packs_year, Varices, Smoking, HBeAg, Endemic, HBcAb e Hemochro.
 
-Está carregado no github um dataset_ficheiros.zip com todos os ficheiros que são criados ao longo da data exploration e da data preprocessing.
+- Está carregado no github um 'dataset_ficheiros.zip' com todos os ficheiros que são criados ao longo da data exploration e da data preprocessing. O ficheiro 'hcc_dataset_completo.csv' é o ficheiro final e o usado na data modeling.
 
 **DATA MODELING:**
 Usamos como métodos de pesquisa supervisionada o k-nearest neighbors algorithm, o decision tree classifier e random forest, para estudar o nosso dataset e identificar o conceito alvo.
@@ -55,5 +55,9 @@ Em termos de precisão, recall, exatidão e F1-score, os algoritmos KNN e Random
 
 **02** Ter o ficheiro 'hcc_dataset.csv'
 
-**03** Ter os imports todos necessários 
+**03** Descarregar o 'assignment2_codigo.ipynb'
+
+**04** Ter os imports todos necessários 
+
+**05** Correr os códigos todos pela ordem que estão no notebook
 
