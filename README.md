@@ -13,4 +13,32 @@ In this project, the goal is to address a real data science use case from data c
 ● Interpretation of Results: This involves extracting meaningful insights from the obtained results: explain the behavior of the models, drawing conclusions about the effectiveness of the chosen algorithms and preprocessing techniques, providing recommendations for future analysis, investigating discrepancies of unexpected findings, etc.
 
 
+------
 
+**DATA EXPLORATION:** 
+A exploração dos dados permitiu identificar relações entre variáveis, destacar padrões e possíveis áreas de melhoria.
+ 
+
+**DATA PREPROCESSING:**
+Para melhorar a qualidade dos dados e o desempenho dos métodos de machine learning:
+
+**01** Imputação de valores em falta
+Substituição dos valores em falta pela moda/média da coluna correspondente
+
+**02** Remoção de colunas com base na correlação
+Identificação de pares de colunas com alta correlação e eliminação das que possuem menor correlação com a variável alvo (‘Class’).
+
+**03** Remoção de colunas com base na frequência de 'Nan' e na variância
+Identificação de colunas com mais valores em falta ('Nan') e mais baixa variância
+
+Colunas removidas: Grams_day, Spleno, PHT, Dir_Bil, AST, Sat, Ferritin, Iron, Packs_year, Varices, Smoking, HBeAg, Endemic, HBcAb e Hemochro.
+
+
+**DATA MODELING:**
+Usamos como métodos de pesquisa supervisionada o k-nearest neighbors algorithm, o decision tree classifier e random forest, para estudar o nosso dataset e identificar o conceito alvo.
+
+
+**DATA EVALUATION:**
+Comparamos os métodos de pesquisa através 
+
+    
