@@ -33,6 +33,7 @@ Identificação de colunas com mais valores em falta ('Nan') e mais baixa variâ
 
 Colunas removidas: Grams_day, Spleno, PHT, Dir_Bil, AST, Sat, Ferritin, Iron, Packs_year, Varices, Smoking, HBeAg, Endemic, HBcAb e Hemochro.
 
+Está carregado no github um dataset_ficheiros.zip com todos os ficheiros que são criados ao longo da data exploration e da data preprocessing.
 
 **DATA MODELING:**
 Usamos como métodos de pesquisa supervisionada o k-nearest neighbors algorithm, o decision tree classifier e random forest, para estudar o nosso dataset e identificar o conceito alvo.
