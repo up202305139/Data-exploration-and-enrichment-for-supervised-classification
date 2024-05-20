@@ -61,3 +61,9 @@ Em termos de precisão, recall, exatidão e F1-score, os algoritmos KNN e Random
 
 **05** Correr os códigos todos pela ordem que estão no notebook
 
+
+------
+
+Colocamos a nossa informação numa fonte externa através da package Streamlit para criar uma interface interativa.
+**Link:**   
+
