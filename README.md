@@ -65,4 +65,6 @@ Em termos de precisão, recall, exatidão e F1-score, os algoritmos KNN e Random
 ------
 
 Colocamos a nossa informação numa fonte externa através da package Streamlit para criar uma interface interativa. -> presente no main.zip 
+O zip imagens_para_main.zip contém imagens necessárias para o Streamlite estar completo.
+
 
